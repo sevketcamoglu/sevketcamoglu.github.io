@@ -3,79 +3,43 @@
 # ============================================================
 
 title: "Sevket Camoglu"
-tagline: "PhD Candidate in Economics & Finance"
+tagline: "PhD Student in Economics"
 description: >-
-  Personal academic website of Sevket Camoglu, PhD student in Economics/Finance
-  at Ca' Foscari University of Venice, researching Venture Capital, Private Equity,
-  Private Credit, Government Venture Capital, and Entrepreneurial Finance.
+  Personal academic website of Sevket Camoglu, PhD student in Economics at
+  Ca' Foscari University of Venice. Research in corporate finance, entrepreneurial
+  finance, and banking: private credit, private equity, and venture capital.
 
-# CHANGE this to your real GitHub Pages URL once you know your username
-# (see the setup guide). Example: https://sevketcamoglu.github.io
 url: "https://sevketcamoglu.github.io"
-baseurl: ""   # leave empty if your repo is named "YOUR-USERNAME.github.io"
+baseurl: ""
 
 author:
   name: "Sevket Camoglu"
-  email: "your.email@unive.it"     # PLACEHOLDER — replace with your real academic email
+  email: "sevket.camoglu@unive.it"
   affiliation: "Ca' Foscari University of Venice"
-  research_affiliation: "SAFE – Leibniz Institute for Financial Research"
-  advisors:
-    - "Stefano Colonnello"
-    - "Michael Koetter"
+
+# External links used on the homepage. Leave "" to show plain text instead of a link.
+links:
+  wefi: "https://workshop-efi.com/wefi-fellows/"
 
 # Social / academic profile links — leave the value as "" to hide that link
 social:
-  google_scholar: ""   # e.g. "https://scholar.google.com/citations?user=XXXXXXX"
-  orcid: ""             # e.g. "https://orcid.org/0000-0000-0000-0000"
-  github: ""            # e.g. "https://github.com/yourusername"
-  linkedin: ""          # e.g. "https://www.linkedin.com/in/yourname"
-  ssrn: ""              # optional
+  google_scholar: ""
+  orcid: ""
+  github: ""
+  linkedin: "https://www.linkedin.com/in/sevktcam"
+  ssrn: ""
 
-# Plugins whitelisted by GitHub Pages — no local install needed, GitHub builds these for you
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Collections = one small file per research item. Add a new paper by
-# copying an existing file in the matching folder and editing it.
+# Each working paper is one file in _working_papers/. They are displayed
+# inline on the homepage (output: false = no separate page per paper).
 collections:
   working_papers:
-    output: true
-    permalink: /research/working-papers/:path/
-  publications:
-    output: true
-    permalink: /research/publications/:path/
-  wip:
-    output: true
-    permalink: /research/wip/:path/
-  presentations:
-    output: true
-    permalink: /research/presentations/:path/
+    output: false
 
 defaults:
-  - scope:
-      path: ""
-      type: "working_papers"
-    values:
-      layout: "paper"
-      status: "Working Paper"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "paper"
-      status: "Publication"
-  - scope:
-      path: ""
-      type: "wip"
-    values:
-      layout: "paper"
-      status: "Work in Progress"
-  - scope:
-      path: ""
-      type: "presentations"
-    values:
-      layout: "default"
   - scope:
       path: ""
     values:
@@ -85,3 +49,4 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - _archive
