@@ -1,0 +1,53 @@
+# ============================================================
+# SITE CONFIGURATION — edit this file to update site-wide info
+# ============================================================
+
+title: "Sevket Camoglu"
+tagline: "PhD Student in Economics"
+description: >-
+  Personal academic website of Sevket Camoglu, PhD student in Economics at
+  Ca' Foscari University of Venice. Research in corporate finance, entrepreneurial
+  finance, and banking: private credit, private equity, and venture capital.
+
+url: "https://sevketcamoglu.github.io"
+baseurl: ""
+
+author:
+  name: "Sevket Camoglu"
+  email: "sevket.camoglu@unive.it"
+  affiliation: "Ca' Foscari University of Venice"
+
+# External links used on the homepage. Leave "" to show plain text instead of a link.
+links:
+  wefi: "https://workshop-efi.com/wefi-fellows/"
+  cv: "https://drive.google.com/file/d/1KDiz16dM_39ypWaSkinnOosfhxGEAK0L/view?usp=share_link"   # paste your Google Drive share link here; while empty, the site uses assets/pdf/cv/cv.pdf
+
+# Social / academic profile links — leave the value as "" to hide that link
+social:
+  google_scholar: ""
+  orcid: ""
+  github: ""
+  linkedin: "https://www.linkedin.com/in/sevktcam"
+  ssrn: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Each working paper is one file in _working_papers/. They are displayed
+# inline on the homepage (output: false = no separate page per paper).
+collections:
+  working_papers:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - _archive

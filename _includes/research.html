@@ -1,0 +1,11 @@
+{% assign papers = site.working_papers | sort: 'order' %}
+<div class="papers">
+{% for p in papers %}
+<article class="paper-item">
+<h4 class="paper-title">{{ p.title }}</h4>
+<p class="paper-authors">{% if p.coauthors and p.coauthors.size > 0 %}with {% for a in p.coauthors %}{% assign pen = forloop.length | minus: 1 %}{% if a.url and a.url != "" %}<a href="{{ a.url }}" target="_blank" rel="noopener">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}{% if forloop.index == pen %} and {% else %}, {% endif %}{% endunless %}{% endfor %}{% else %}Sole-authored{% endif %}</p>
+{% if p.abstract %}<details class="abstract-toggle"><summary>Abstract</summary><p>{{ p.abstract }}</p></details>{% endif %}
+{% if p.presentations %}<div class="paper-presentations"><p class="presentations-label">Presentations</p><p class="pres-inline">{% for t in p.presentations %}<span class="pres">{{ t.event }}{% if t.scheduled %}<sup>&dagger;</sup>{% endif %} <em>({{ t.date }})</em></span>{% endfor %}</p>{% if p.presentations_note %}<p class="cv-note">{{ p.presentations_note }}</p>{% endif %}</div>{% endif %}
+</article>
+{% endfor %}
+</div>
