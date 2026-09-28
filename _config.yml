@@ -11,7 +11,7 @@ description: >-
 
 # CHANGE this to your real GitHub Pages URL once you know your username
 # (see the setup guide). Example: https://sevketcamoglu.github.io
-url: "https://YOUR-USERNAME.github.io"
+url: "https://sevketcamoglu.github.io"
 baseurl: ""   # leave empty if your repo is named "YOUR-USERNAME.github.io"
 
 author:
