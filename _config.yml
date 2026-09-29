@@ -21,7 +21,8 @@ author:
 links:
   wefi: "https://workshop-efi.com/wefi-fellows/"
   cv: "https://drive.google.com/file/d/1KDiz16dM_39ypWaSkinnOosfhxGEAK0L/view?usp=share_link"   # paste your Google Drive share link here; while empty, the site uses assets/pdf/cv/cv.pdf
-
+  safe: "https://safe-frankfurt.de/research/research-departments/financial-markets.html"
+  
 # Social / academic profile links — leave the value as "" to hide that link
 social:
   google_scholar: ""
