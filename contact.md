@@ -6,11 +6,13 @@ permalink: /contact/
 
 # Contact
 
-**Address**
-Ca' Foscari University of Venice
-Cannaregio 873, Fondamenta San Giobbe
+**Address**<br>
+Ca' Foscari University of Venice<br>
+Cannaregio 873, Fondamenta San Giobbe<br>
 30121 Venezia, Italy
 
-**Email**
-[sevket.camoglu@unive.it](mailto:sevket.camoglu@unive.it)
-[camoglu@safe-frankfurt.de](mailto:camoglu@safe-frankfurt.de)
+<br>
+
+**Email**<br>
+<a href="mailto:sevket.camoglu@unive.it">sevket.camoglu@unive.it</a><br>
+<a href="mailto:camoglu@safe-frankfurt.de">camoglu@safe-frankfurt.de</a>
