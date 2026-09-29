@@ -15,7 +15,7 @@ permalink: /
     <p>I am a Research Assistant in the Financial Markets team at SAFE, and I am part of the {% if site.links.wefi != "" %}<a href="{{ site.links.wefi }}" target="_blank" rel="noopener">WEFI Fellows</a>{% else %}WEFI Fellows{% endif %} program, and I co-organize the student-led WEFI workshop.</p>
     <p><strong>Research Interests:</strong> Private Equity, Venture Capital, Entrepreneurial Finance, Corporate Finance.</p>
     <p><strong>Visiting periods:</strong> HEC Paris (Apr &ndash; May 2026; host: Matthias Efing) and SAFE (Oct 2025 &ndash; Mar 2026; host: Loriana Pelizzon).</p>
-    <p class="intro-actions">{% if site.links.cv != "" %}<a class="btn" href="{{ site.links.cv }}" target="_blank" rel="noopener">Download CV (PDF)</a>{% else %}<a class="btn" href="{{ '/assets/pdf/cv/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV (PDF)</a>{% endif %}</p>
+    <p class="intro-actions">{% if site.links.cv != "" %}<a class="btn" href="{{ site.links.cv }}" target="_blank" rel="noopener">Download CV</a>{% else %}<a class="btn" href="{{ '/assets/pdf/cv/cv.pdf' | relative_url }}" target="_blank" rel="noopener">Download CV</a>{% endif %}</p>
   </div>
 </section>
 
