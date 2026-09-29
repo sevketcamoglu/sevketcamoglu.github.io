@@ -14,7 +14,7 @@ permalink: /
     <p>I study how firms access financing beyond traditional bank lending, with a focus on private credit, private equity, and venture capital. My research combines structural and empirical methods to study corporate finance, entrepreneurial finance, and banking.</p>
     <p>
   I am a Research Assistant in the Financial Markets team at
-  <a href="[https://safe-frankfurt.de/](https://safe-frankfurt.de/research/research-departments/financial-markets.html)" target="_blank" rel="noopener">SAFE</a>,
+  <a href="{{ site.links.safe }}" target="_blank" rel="noopener">SAFE</a>,
   and I am part of the
   {% if site.links.wefi != "" %}
     <a href="{{ site.links.wefi }}" target="_blank" rel="noopener">WEFI Fellows</a>
