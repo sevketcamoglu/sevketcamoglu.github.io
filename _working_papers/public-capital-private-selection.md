@@ -4,7 +4,7 @@ order: 1
 coauthors: []
 presentations_note: "† scheduled"
 presentations:
-  - event: "AFA 2027, Poster Session, Washington"
+  - event: "AFA 2027, [Poster], Washington"
     date: "Jan 2027"
     scheduled: true
   - event: "DGF 2026 Annual Meeting Doctoral Workshop, Dusseldorf"
@@ -13,7 +13,7 @@ presentations:
     date: "Sep 2026"
   - event: "SASCA 2026, Venice"
     date: "Sep 2026"
-  - event: "pre-EFA, Poster Session, Ghent"
+  - event: "pre-EFA, [Poster], Ghent"
     date: "Aug 2026"
   - event: "Frankfurt Summer School, Frankfurt"
     date: "Jul 2026"
