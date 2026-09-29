@@ -16,7 +16,7 @@ abstract: >-
 presentations:
   - event: "Internal Seminar, University of Groningen"
     date: "Mar 2026"
-  - event: "CREDIT 2025, Poster Session, Venice"
+  - event: "CREDIT 2025, [Poster], Venice"
     date: "Sep 2025"
   - event: "PhD Day (UniVE / UniVerona / UniPadova), University of Verona"
     date: "Jun 2025"
