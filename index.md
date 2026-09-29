@@ -9,7 +9,7 @@ permalink: /
     <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Photo of {{ site.author.name }}">
   </div>
   <div class="intro-text">
-    <h1>Hi! My name is {{ site.author.name }}.</h1>
+    <h1 style="font-size: 2rem;">Hi! My name is {{ site.author.name }}.</h1>
     <p class="intro-tagline">{{ site.tagline }} &middot; {{ site.author.affiliation }}</p>
     <p>I study how firms raise financing beyond traditional bank lending, including private credit, private equity, and venture capital. My work uses structural and empirical estimation in corporate finance, entrepreneurial finance, and banking.</p>
     <p>I am a Research Assistant in the Financial Markets team at SAFE, and I am part of the {% if site.links.wefi != "" %}<a href="{{ site.links.wefi }}" target="_blank" rel="noopener">WEFI Fellows</a>{% else %}WEFI Fellows{% endif %} program, and I co-organize the student-led WEFI workshop.</p>
