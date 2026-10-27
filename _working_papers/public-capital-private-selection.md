@@ -7,6 +7,9 @@ presentations:
   - event: "AFA 2027, [Poster], Washington"
     date: "Jan 2027"
     scheduled: true
+  - event: "IWH Brownbag, Halle"
+    date: "Dec 2026"
+    scheduled: true
   - event: "DGF 2026 Annual Meeting Doctoral Workshop, Dusseldorf"
     date: "Sep 2026"
   - event: "Rising Scholar Conference in Finance 2026, Zurich"
